@@ -69,6 +69,36 @@ ingredients_attributes = [
   },
   {
     name:         'Lime Juice'
+  },
+  {
+    name:         'Kahlua'
+  },
+  {
+    name:         'Sprite'
+  },
+  {
+    name:         'Coca Cola'
+  },
+  {
+    name:         'Scotch'
+  },
+  {
+    name:         'Cognac'
+  },
+  {
+    name:         'Vermouth'
+  },
+  {
+    name:         'Bourbon'
+  },
+  {
+    name:         'Whiskey'
+  },
+  {
+    name:         'Salt'
+  },
+  {
+    name:         'Amaretto'
   }
 ]
 Ingredient.create!(ingredients_attributes)

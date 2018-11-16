@@ -1,22 +1,46 @@
 .banner {
   color: white;
   text-align: center;
-  height: calc(100vh - 70px);
+  height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgba(255,255,255,0.2);
+  background-blend-mode: lighten;
 }
 .banner h1 {
-  font-size: 50px;
+  margin-top: 20px;
+  font-family: 'Megrim', cursive;
+  font-size: 80px;
   font-weight: bold;
-  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 3px 3px 3px #000000;
 }
 .banner p {
-  font-size: 25px;
+  font-family: 'Pompiere', cursive;
+  font-size: 40px;
   font-weight: lighter;
   color: rgb(255, 255, 255);
-  opacity: 0.6;
   margin-bottom: 30px;
+  color: #b9e837;
+  text-shadow: 3px 3px 3px #000000;
+  padding: 0;
+}
+#btn {
+  font-family: 'Pompiere', cursive;
+  border-color: #b9e837;
+  border-style: solid;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  padding: 5px 10px;
+  text-shadow: 1px 1px 1px #000000;
+  box-shadow: 2px;
+}
+
+#btn:hover {
+  text-decoration: none;
+  color: #b9e837;
+  text-shadow: 1px 1px 1px #000000;
 }

@@ -1,3 +1,28 @@
 // Place all the styles related to the Doses controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.btn {
+  font-family: 'Pompiere', cursive;
+  font-size: 25px;
+  border-color: #b9e837;
+  border-style: solid;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  padding: 5px 10px;
+  text-shadow: 1px 1px 1px #000000;
+  box-shadow: 2px;
+  background-color: rgba(255,255,255,0.0);
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: #b9e837;
+  text-shadow: 1px 1px 1px #000000;
+  background-color: rgba(255,255,255,0.0);
+  border-color: #b9e837;
+}
+.form {
+  font-family: 'Pompiere', cursive;
+  font-size: 25px;
+}
